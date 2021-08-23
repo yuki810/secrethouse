@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+body {
+    font-family: 'Sacramento', cursive;
+    /*ウェブページ周囲の余白を完全に消す*/
+    /*参考：https://allabout.co.jp/gm/gc/23796/#aa23796bodymargin*/
+    /*paddinは要素内の余白*/
+    /*marginは要素間の間隔*/
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 300px;
+    background-color: #A5B3C2;
+}
+
+.top h1{
+    font-size: 150px;
+    line-height: 150px;
+    padding:150px 0px 0px 20px;
+    margin: 0;
+    float: left;
+    font-weight: 100;
+}
+
+.top p {
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-size: 40px;
+    writing-mode: vertical-rl;
+    float: right;
+    padding: 20px 20px 0px 0px;
+}
+
+.content {
+    margin-top: 40px;
+    color: block;
+    width: 33%;
+    height: 25%;
+    float: left;
+    text-align: center; 
+}
+
+.content img {
+    width: 80%;
+    height: 80%;
+    /*上下左右中央揃えで真ん中に配置*/
+    top:  0;
+    bottom:  0;                 
+    left:  0;                   
+    right:  0;
+    margin:  auto; 
+    
+}
+
+.btn {
+    margin-top: 10px;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 7px 0px 7px;
+    color: black;
+    background-color: #A5B3C2;
+    opacity: 0.7;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+footer{
+    text-align: center;
+}
