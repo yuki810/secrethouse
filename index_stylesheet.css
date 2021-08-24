@@ -55,9 +55,8 @@ footer p{
     position: absolute;
     font-size: 20px;
     font-weight: 100;
-    padding-top: 80vh;
     color: white;
-    top:50%;
+    top:85vh;
     left:50%;
-    transform:translate(-50%,-50%);
+    transform:translate(-50%,0);
 }
