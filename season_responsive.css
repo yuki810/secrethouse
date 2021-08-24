@@ -1,0 +1,8 @@
+@media(max-width: 670px){
+    .top p {
+        width: 100%;
+    }
+    .content {
+        width: 50%;
+    }
+}
