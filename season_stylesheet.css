@@ -19,13 +19,24 @@ body {
 
 .top {
     height: 300px;
-    background-color: #ABD9BA;
 }
 
+.spring{
+    background-color: #E07994;
+}
+.summer{
+    background-color: #ABD9BA;
+}
+.autumn{
+    background-color: #E68A5C;
+}
+.winter{
+    background-color: #A5B3C2;
+}
 .top h1{
     font-size: 150px;
     line-height: 150px;
-    padding:150px 0px 0px 20px;
+    padding:100px 0px 0px 20px;
     margin: 0;
     float: left;
     font-weight: 100;
@@ -68,7 +79,6 @@ body {
     text-decoration: none;
     padding: 10px 7px 0px 7px;
     color: black;
-    background-color: #ABD9BA;
     opacity: 0.7;
     display: inline-block;
     font-size: 40px;
