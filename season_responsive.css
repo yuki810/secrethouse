@@ -1,4 +1,7 @@
 @media(max-width: 670px){
+    .top h1{
+        font-size: 100px;
+    }
     .top p {
         width: 100%;
     }
