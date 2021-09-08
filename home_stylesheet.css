@@ -18,16 +18,9 @@ body {
     clear: left;
 }
 
-.container {
-    /*max-width: 1170px;*/
-    width: 100%;
-    padding: 0 0;
-    margin: 0 auto;
-}
-
 .top {
     width:100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
 }
 
