@@ -1,12 +1,16 @@
 @media(max-width: 670px){
     .season {
-        position:  relative;
-        width:100%;
+        position: relative;
+        width: 100%;
         height: 25%;
+        float:none;
     }
 
     .season img{
         width: 100%;
+        height: auto;
+        top:0;
+        bottom:0;
     }
 
     .btn {
