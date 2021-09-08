@@ -1,0 +1,9 @@
+@media(max-width: 670px){
+    .top h1{
+        font-size: 30px;
+    }
+    .btn {
+        padding: 10px 7px 5px 10px;
+        font-size: 25px;
+    }
+}
