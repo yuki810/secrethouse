@@ -8,14 +8,30 @@
 
     .season img{
         width: 100%;
-        height: auto;
+        height: 100%;
         top:0;
         bottom:0;
     }
 
+    .springImage {
+        object-position: 100% 20%;
+    }
+    
+    .summerImage {
+        object-position: 100% 50%;
+    }
+    
+    .autumnImage {
+        object-position: 100% 70%;
+    }
+    
+    .winterImage {
+        object-position: 100% 20%;
+    }
+
     .btn {
         padding-top: 10vh;
-        padding-bottom: 7vh;        
+        padding-bottom: 10vh;        
     }
 
     .btn::after {
