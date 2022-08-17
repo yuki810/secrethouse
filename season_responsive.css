@@ -1,4 +1,11 @@
-@media(max-width: 670px){
+@media(max-width: 1200px){
+    .content {
+        width: 50%;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 700px){
     .top {
         height: 180px;
     }
